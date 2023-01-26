@@ -3,7 +3,7 @@
     <a class="footer__link" href="https://github.com/0xAliRaza/codefolio"
       >Codefolio</a
     >, coded with <Icon name="heart" /> by
-    <a class="footer__link" href="https://0xali.com">Ali Raza.</a>
+    <a class="footer__link" href="https://0xali.com">Greg Knudsen</a>
   </div>
 </template>
 

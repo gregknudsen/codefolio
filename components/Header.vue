@@ -58,11 +58,12 @@
 </template>
 <script lang="ts">
 import Vue from 'vue'
+import type { PropType } from 'vue'
 export default Vue.extend({
   props: {
     resumeUrl: { type: String, default: null },
     externalLinks: {
-      type: Array,
+      type: Array as PropType<Navbar[]>,
       default: null,
     },
   },
