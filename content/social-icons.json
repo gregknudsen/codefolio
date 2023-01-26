@@ -1,28 +1,12 @@
 {
   "icons": [
     {
-      "name": "discord",
-      "url": "#"
-    },
-    {
-      "name": "facebook",
-      "url": "#"
-    },
-    {
       "name": "github",
-      "url": "#"
-    },
-    {
-      "name": "twitter",
-      "url": "#"
+      "url": "https://github.com/gregknudsen"
     },
     {
       "name": "gmail",
-      "url": "#"
-    },
-    {
-      "name": "skype",
-      "url": "#"
+      "url": "mailto:dev.artist15@gmail.com"
     }
   ]
 }

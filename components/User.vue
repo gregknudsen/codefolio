@@ -16,10 +16,10 @@
       <h1 class="user__name text-nowrap">{{ user.fullname }}</h1>
       <div class="user__about">
         <p>
-          {{ user.about
-          }}<Button nuxt-link="/about" class="user__learn-more-btn" small
-            >Learn more</Button
-          >
+          {{ user.about }}<br />
+          <Button nuxt-link="/about" class="user__learn-more-btn" small
+            >Learn more
+          </Button>
         </p>
       </div>
       <div class="user__cta text-nowrap">
@@ -127,7 +127,9 @@ export default Vue.extend({
   &__about {
     margin-bottom: pxToRem(20);
     p {
-      font-size: pxToRem(14);
+      font-family: 'Prata';
+      font-size: pxToRem(24);
+      // font-size: pxToRem(14);
       font-weight: 400;
       color: $gray-700;
       margin: 0;
@@ -136,8 +138,9 @@ export default Vue.extend({
   }
 
   &__learn-more-btn {
+    font-family: 'Poppins';
     padding: 0;
-    margin: 0 pxToRem(6);
+    margin: 0;
     line-height: inherit;
   }
 
