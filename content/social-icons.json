@@ -7,6 +7,10 @@
     {
       "name": "gmail",
       "url": "mailto:dev.artist15@gmail.com"
+    },
+    {
+      "name": "linkedin",
+      "url": "https://www.linkedin.com/in/gregknudsen"
     }
   ]
 }
