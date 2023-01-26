@@ -17,14 +17,14 @@
       <div class="user__about">
         <p>
           {{ user.about }}<br />
-          <Button nuxt-link="/about" class="user__learn-more-btn" small
+          <!-- <Button nuxt-link="/about" class="user__learn-more-btn" small
             >Learn more
-          </Button>
+          </Button> -->
         </p>
       </div>
       <div class="user__cta text-nowrap">
-        <Button class="me-1" primary-glow nuxt-link="/contact">Contact</Button>
-        <Button class="" outline-primary nuxt-link="/projects">Projects</Button>
+        <Button class="me-1" primary-glow nuxt-link="/about">Learn More</Button>
+        <!-- <Button class="" outline-primary nuxt-link="/projects">Projects</Button> -->
       </div>
     </div>
   </div>
