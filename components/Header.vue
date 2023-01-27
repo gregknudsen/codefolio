@@ -22,8 +22,8 @@
         </li>
         <!-- <li class="navbar__list-item" @click="toggleNavbar">
           <NuxtLink class="navbar__link" to="/projects">Projects</NuxtLink>
-        </li>
-        <li class="navbar__list-item" @click="toggleNavbar">
+        </li> -->
+        <!-- <li class="navbar__list-item" @click="toggleNavbar">
           <NuxtLink class="navbar__link" to="/contact">Contact</NuxtLink>
         </li> -->
       </ul>
@@ -58,12 +58,11 @@
 </template>
 <script lang="ts">
 import Vue from 'vue'
-import type { PropType } from 'vue'
 export default Vue.extend({
   props: {
     resumeUrl: { type: String, default: null },
     externalLinks: {
-      type: Array as PropType<Navbar[]>,
+      type: Array,
       default: null,
     },
   },
