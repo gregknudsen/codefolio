@@ -8,7 +8,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Codefolio',
+    title: 'Greg Knudsen - Musician/Developer/Artist',
     htmlAttrs: {
       lang: 'en',
     },
@@ -18,8 +18,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content:
-          'Codefolio is a Jamstack portfolio web application for programmers by Ali Raza. It is built using Nuxt.js and leverages the @nuxt/content module.',
+        content: 'Here is my site using the Codefolio template. Enjoy!',
       },
       {
         hid: 'keywords',
@@ -30,7 +29,7 @@ export default {
       {
         hid: 'author',
         name: 'author',
-        content: 'Ali Raza',
+        content: 'Greg Knudsen with special thanks to Ali Raza',
       },
       { name: 'format-detection', content: 'telephone=no' },
     ],
@@ -84,7 +83,7 @@ export default {
 
   // Sitemap module options: https://sitemap.nuxtjs.org/guide/configuration
   sitemap: {
-    hostname: 'https://0xali.com/codefolio/',
+    hostname: 'https://0xali.com/',
     gzip: true,
     // routes: ['/test', '/test/2', '/test/3'],
   },
