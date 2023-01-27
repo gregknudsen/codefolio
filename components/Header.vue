@@ -49,7 +49,7 @@
             class="navbar__resume-button"
             download=""
             @click="toggleNavbar"
-            >Resume <Icon class="ms-1" name="download"
+            >Resume <Icon name="external-link" desc="resume icon" class="ms-1"
           /></Button>
         </li>
       </ul>
