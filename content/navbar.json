@@ -1,13 +1,9 @@
 {
-  "resumeUrl": "https://example.com/resume",
+  "resumeUrl": "https://resume.creddle.io/resume/c8eyer3gy37",
   "externalLinks": [
     {
       "text": "github",
-      "url": "#"
-    },
-    {
-      "text": "blog",
-      "url": "https://example.com/blog"
+      "url": "https://github.com/gregknudsen"
     }
   ]
 }

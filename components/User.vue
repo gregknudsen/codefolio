@@ -15,16 +15,15 @@
       <h4 class="user__title text-nowrap">{{ user.title }}</h4>
       <h1 class="user__name text-nowrap">{{ user.fullname }}</h1>
       <div class="user__about">
-        <p>
-          {{ user.about }}<br />
-          <Button nuxt-link="/about" class="user__learn-more-btn" small
-            >Learn more
-          </Button>
+        <p class="about">
+          <span class="musician">Musician</span> |
+          <span class="developer">Developer</span> |
+          <span class="artist">Artist</span>
         </p>
       </div>
       <div class="user__cta text-nowrap">
-        <Button class="me-1" primary-glow nuxt-link="/contact">Contact</Button>
-        <Button class="" outline-primary nuxt-link="/projects">Projects</Button>
+        <Button class="me-1" primary-glow nuxt-link="/about">Learn More</Button>
+        <!-- <Button class="" outline-primary nuxt-link="/projects">Projects</Button> -->
       </div>
     </div>
   </div>
@@ -129,11 +128,17 @@ export default Vue.extend({
     p {
       font-family: 'Prata';
       font-size: pxToRem(24);
-      // font-size: pxToRem(14);
       font-weight: 400;
       color: $gray-700;
       margin: 0;
       line-height: 1.75em;
+      .developer {
+        font-family: 'Source Code Pro';
+      }
+      .artist {
+        font-family: 'Shadows Into Light';
+        font-size: pxToRem(28);
+      }
     }
   }
 

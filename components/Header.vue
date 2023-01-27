@@ -20,12 +20,12 @@
         <li class="navbar__list-item" @click="toggleNavbar">
           <NuxtLink class="navbar__link" to="/about">About</NuxtLink>
         </li>
-        <li class="navbar__list-item" @click="toggleNavbar">
+        <!-- <li class="navbar__list-item" @click="toggleNavbar">
           <NuxtLink class="navbar__link" to="/projects">Projects</NuxtLink>
-        </li>
-        <li class="navbar__list-item" @click="toggleNavbar">
+        </li> -->
+        <!-- <li class="navbar__list-item" @click="toggleNavbar">
           <NuxtLink class="navbar__link" to="/contact">Contact</NuxtLink>
-        </li>
+        </li> -->
       </ul>
       <ul class="navbar__list">
         <li
@@ -43,6 +43,7 @@
           <Button
             v-if="resumeUrl"
             :link="resumeUrl"
+            target="_blank"
             small
             outline-gray
             class="navbar__resume-button"
@@ -65,7 +66,7 @@ export default Vue.extend({
       default: null,
     },
   },
-  data: () => {
+  data() {
     return {
       navbarVisible: false,
     }

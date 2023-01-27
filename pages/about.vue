@@ -62,7 +62,6 @@ export default Vue.extend({
     const about = await $content('about').fetch()
     const navbar = await $content('navbar').fetch()
     const socialIcons = await $content('social-icons').fetch()
-    // console.log('Icons', socialIcons.icons)
 
     return {
       about,
