@@ -20,9 +20,9 @@
         <li class="navbar__list-item" @click="toggleNavbar">
           <NuxtLink class="navbar__link" to="/about">About</NuxtLink>
         </li>
-        <li class="navbar__list-item" @click="toggleNavbar">
+        <!-- <li class="navbar__list-item" @click="toggleNavbar">
           <NuxtLink class="navbar__link" to="/projects">Projects</NuxtLink>
-        </li>
+        </li> -->
         <!-- <li class="navbar__list-item" @click="toggleNavbar">
           <NuxtLink class="navbar__link" to="/contact">Contact</NuxtLink>
         </li> -->
