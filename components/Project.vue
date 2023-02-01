@@ -30,7 +30,7 @@
           small
           primary
           title="Live Demo"
-          >Demo
+          >Go To Site
           <Icon name="globe" class="ms-1" />
         </Button>
         <Button
@@ -43,7 +43,7 @@
           >Source
           <Icon name="github" class="ms-1" />
         </Button>
-        <Button
+        <!-- <Button
           v-if="links.videoDemo"
           class=""
           :link="links.videoDemo"
@@ -52,7 +52,7 @@
           title="Video Demo"
           >Video
           <Icon name="youtubeplay" class="ms-1" />
-        </Button>
+        </Button> -->
       </div>
     </div>
   </div>

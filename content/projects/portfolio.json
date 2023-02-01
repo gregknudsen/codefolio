@@ -1,0 +1,20 @@
+{
+  "id": 2,
+  "title": "Porfolio Site",
+  "description": "Newest incarnation of my portfolio site using VueJS and Nuxt.js. I wanted to modernize my portfolio using VueJS and Nuxt.js. I have actually never worked with Nuxt before, and I like what I see so far. My last client at Nexient used Vue, and I'm more than happy to continue working with it!",
+  "image": "desk.jpg",
+  "links": {
+    "liveDemo": "/",
+    "videoDemo": "#",
+    "sourceCode": "https://github.com/gregknudsen/codefolio"
+  },
+  "technologies": [
+    "VUEJS",
+    "Nuxt.js",
+    "HTML",
+    "CSS",
+    "SCSS",
+    "JavaScript",
+    "Git"
+  ]
+}

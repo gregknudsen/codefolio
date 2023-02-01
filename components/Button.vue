@@ -1,5 +1,5 @@
 <template>
-  <a v-if="link" :href="link" :class="{ ...classes }">
+  <a v-if="link" :href="link" :class="{ ...classes }" target="_blank">
     <slot></slot>
   </a>
   <nuxt-link v-else-if="nuxtLink" :to="nuxtLink" :class="{ ...classes }">
