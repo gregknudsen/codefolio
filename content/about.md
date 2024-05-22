@@ -3,7 +3,7 @@ title: About Me
 description: Learn about me.
 ---
 
-_I'm currently a software developer for Nexient, an NTTData Company and am actively seeking employment. I spend the majority of my time on the Front End of the stack, working with Angular, React as well as recently spending a lot of time with VueJS. Don't hesitate to reach out to me via [email](mailto:dev.artist15@gmail.com) or by visiting my [LinkedIn](https://www.linkedin.com/pub/gregory-knudsen/41/b33/64) and/or [Github](https://github.com/gregknudsen) profile. Hope to hear from you soon._
+_I'm currently a software developer for B.E.A.T. LLC and am actively seeking employment. I spend the majority of my time on the Front End of the stack, working with Angular, React as well as recently spending a lot of time with VueJS. Don't hesitate to reach out to me via [email](mailto:dev.artist15@gmail.com) or by visiting my [LinkedIn](https://www.linkedin.com/pub/gregory-knudsen/41/b33/64) and/or [Github](https://github.com/gregknudsen) profile. Hope to hear from you soon._
 
 ---
 
