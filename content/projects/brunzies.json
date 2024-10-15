@@ -4,7 +4,7 @@
   "description": "Website I created for family member's bar/restaurant. This has gone through a few iterations with the latest version using GatsbyJS, which is built on ReactJS. Another reason I wanted to use Gatsby was its utlization of GraphQL. It's still a technology I'm learning and am eager to continue.",
   "image": "logo1-overlay.jpg",
   "links": {
-    "liveDemo": "https://deploy-preview-3--brunzies-part-2.netlify.app/",
+    "liveDemo": "https://www.brunziesbarandgrille.com/",
     "videoDemo": "#",
     "sourceCode": "https://github.com/gregknudsen/gatsby-brunzies"
   },
