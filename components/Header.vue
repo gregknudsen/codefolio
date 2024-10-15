@@ -23,9 +23,9 @@
         <li class="navbar__list-item" @click="toggleNavbar">
           <NuxtLink class="navbar__link" to="/projects">Projects</NuxtLink>
         </li>
-        <!-- <li class="navbar__list-item" @click="toggleNavbar">
-          <NuxtLink class="navbar__link" to="/contact">Contact</NuxtLink>
-        </li> -->
+        <li class="navbar__list-item" @click="toggleNavbar">
+          <NuxtLink class="navbar__link" to="/mentorship">Mentorship</NuxtLink>
+        </li>
       </ul>
       <ul class="navbar__list">
         <li
